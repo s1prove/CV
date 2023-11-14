@@ -1,0 +1,224 @@
+.CV {
+    background-color: #e6dcdc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .CV .overlap-wrapper {
+    background-color: #ffffff;
+    position: relative;
+    width: 768px;
+    height: 960px;
+  }
+  
+  .CV .rectangle {
+    position: absolute;
+    width: 330px;
+    height: 960px;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+  }
+
+  .CV .photo {
+    position: absolute;
+    width: 330px;
+    height: 357px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+    /* style for wrapper 1,9 */
+  .CV .style-1 {
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  /* style for wrapper 2,3,4 */
+  .CV .style-2 {
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  /* style for wrapper 5,6,7 */
+  .CV .style-3 {
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+    /* style for wrapper 10,11 */
+  .CV .style-4 {
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .CV .ul {
+    align-self: stretch;
+    left: 32px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 300;
+    line-height: 18px;
+    list-style-type:disc; /* Remove default list styles */
+    padding: 0; /* Remove default padding for the list */
+  }  
+
+  .CV .text-wrapper-2 {
+    width: 148px;
+    top: 372px;
+    left: 104px;
+  }
+
+  .CV .text-wrapper-3 {
+    width: 218px;
+    top: 468px;
+    left: 88px;
+  }
+  
+  .CV .text-wrapper-4 {
+    width: 318px;
+    top: 418px;
+    left: 77px;
+  }
+
+  .CV .text-wrapper-5 {
+    width: 185px;
+    top: 513px;
+    left: 28px;
+  }
+  
+  .CV .text-wrapper-6 {
+    width: 185px;
+    top: 880px;
+    left: 28px;
+  }
+
+  .CV .text-wrapper-7 {
+    width: 185px;
+    top: 773px;
+    left: 28px;
+  }
+
+  .CV .text-wrapper-8 {
+    position: absolute;
+    width: 214px;
+    top: 35px;
+    left: 375px;
+    font-family: "Bebas Neue", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 67px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .CV .text-wrapper-9 {
+    width: 329px;
+    top: 205px;
+    left: 375px;
+  }
+
+  .CV .text-wrapper-10 {
+    top: 646px;
+    left: 383px;
+  }
+  
+  .CV .text-wrapper-11 {
+    top: 806px;
+    left: 383px;
+  }
+  
+  .CV .phone {
+    position: absolute;
+    width: 32px;
+    height: 37px;
+    top: 365px;
+    left: 28px;
+  }
+  
+  .CV .email {
+    position: absolute;
+    width: 32px;
+    height: 37px;
+    top: 411px;
+    left: 28px;
+  }
+  
+  .CV .location {
+    position: absolute;
+    width: 32px;
+    height: 37px;
+    top: 457px;
+    left: 28px;
+  }
+
+  
+  .CV .flexcontainer {
+    width: 282px;
+    height: 218px;
+    top: 552px;
+    left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+  }
+  
+  .CV .overlap-2 {
+    position: absolute;
+    width: 12px;
+    height: 534px;
+    top: 489px;
+    left: 364px;
+  }
+  
+  .CV .ellipse {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 162px;
+    left: 0;
+    background-color: #000000;
+    border-radius: 6px;
+    border: 1px solid;
+  }
+
+  .CV .flexcontainer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
