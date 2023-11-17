@@ -3,76 +3,6 @@
   <head>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      @media only screen and (max-width: 768px) {
-        body {
-          font-size: 14px; 
-        }
-  
-        .overlap {
-          flex-direction: column;
-          align-items: center;
-        }
-  
-        .rectangle {
-          width: 100%;
-          text-align: center;
-          order: 2;
-        }
-  
-        .text-wrapper-8,
-        .text-wrapper-9,
-        .style-4,
-        .style-1,
-        .flexcontainer-2 {
-          width: 100%;
-          text-align: left;
-        }
-  
-        .style-4 {
-          margin-bottom: 20px;
-        }
-
-        .ul {
-          padding: 0;
-          list-style: none;
-          text-align: left;
-          margin-left: 0px;
-        }
-  
-        .ul li {
-          padding: 2px 0;
-        }
-
-        .flexcontainer {
-        flex-direction: column;
-        align-items: center;
-        }
-
-        .text-wrapper-5,
-        .text-wrapper-6 {
-          width: 100%;
-          margin: 5px 0;
-          box-sizing: border-box;
-          text-align: left;
-        }
-
-        .text-wrapper-7{
-          width: 100%;
-          margin: 5px 0;
-          margin-top: 5px;
-          box-sizing: border-box;
-          text-align: left;
-        }
-
-        .text-wrapper-4{
-          width: 100%;
-          margin-left: 10px;
-          box-sizing: border-box;
-          text-align: left;
-        }
-      }
-    </style>
   </head>
   <body>
     <main class="CV">
@@ -119,7 +49,7 @@
             </section>
 
             <div class="style-3 text-wrapper-6">Education</div>
-            <p class="style-2" style="width: 300px; top: 919px;
+            <p class="style-5" style="width: 300px; top: 919px;
             left: 32px; font-size: 15px;">Computer Science, SUTE (2020 - 2024)</p>
 
             <div class="style-3 text-wrapper-7">Languages</div>
@@ -146,13 +76,13 @@
           <div class="style-1" style="width: 329px; top: 434px; left: 376px;">EXPERIENCE</div>
           
           <!-- adding svg from folder and also adding ellipse -->
-          <figure class="overlap-2">
+          <div class="overlap-2">
             <img
               class="line"
               src="imgs_svgs/line.svg"
             />
           <div class="ellipse"></div>
-          </figure>
+          </div>
 
           <!-- information about different work i`ve done at different periods of time -->
           <p class="style-4" style="top: 483px; left: 383px;">CloudVelocity (June 2021 - January 2022)</p>
@@ -161,22 +91,28 @@
           
           <article class="flexcontainer-2" style="width: 350px; height: 100px;
             top: 513px; left: 395px;">
-            Automated software releases with Git for faster deployment.<br/>
-            Managed AWS for cost optimization.<br/>
-            Implemented security best practices, including IAM.
+            <ul class="ul2">
+              <li>Automated software releases with Git for faster deployment.</li>
+              <li>Managed AWS for cost optimization.</li>
+              <li>Implemented security best practices, including IAM.</li>
+            </ul>
           </article>
           
           <article class="flexcontainer-2" style="width: 350px; height: 100px;
-                top: 676px; left: 395px;">
-                Implemented Terraform for IaC, reducing provisioning time by 40%.<br/>
-                Set up ELK Stack for continuous monitoring.<br/>
-                Established disaster recovery and backup strategies.
+              top: 676px; left: 395px;">
+              <ul class="ul2">
+                <li>Implemented Terraform for IaC, reducing provisioning time by 40%.</li>
+                <li>Set up ELK Stack for continuous monitoring.</li>
+                <li>Established disaster recovery and backup strategies.</li>
+              </ul>
           </article>
 
           <article class="flexcontainer-2" style="width: 350px; height: 100px;
-                top: 836px; left: 395px;">
-                Automated CI/CD pipelines, reducing release cycles by 30%.<br/>
-                Managed Docker and Kubernetes for high availability.
+              top: 836px; left: 395px;">
+              <ul class="ul2">
+                <li>Automated CI/CD pipelines, reducing release cycles by 30%.</li>
+                <li>Managed Docker and Kubernetes for high availability.</li>
+              </ul>
           </article>
         </section>
       </section>

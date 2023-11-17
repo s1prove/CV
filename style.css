@@ -12,6 +12,10 @@
     width: 768px;
     height: 960px;
   }
+
+  .CV .overlap-2{
+    margin-top: 12px;
+  }
   
   .CV .rectangle {
     position: absolute;
@@ -75,6 +79,17 @@
     line-height: normal;
   }
 
+  .CV .style-5 {
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 2px;
+  }
+
   .CV .ul {
     align-self: stretch;
     left: 32px;
@@ -83,8 +98,22 @@
     font-family: "Montserrat", Helvetica;
     font-weight: 300;
     line-height: 18px;
-    list-style-type:disc; /* Remove default list styles */
-    padding: 0; /* Remove default padding for the list */
+    list-style-type:disc; 
+    padding: 0; 
+  }  
+
+  .CV .ul2 {
+    align-self: stretch;
+    left: 32px;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 300;
+    line-height: 18px;
+    list-style-type:disc; 
+    padding: 0; 
+    margin-top: 5px;
+    margin-left: 20px;
   }  
 
   .CV .text-wrapper-2 {
@@ -219,6 +248,76 @@
     color: #000000;
     font-size: 15px;
     letter-spacing: 0;
+    margin-top: 15px;
     line-height: normal;
+    list-style-type: circle;
   }
+
+      @media only screen and (max-width: 768px) {
+        body {
+          font-size: 14px; 
+        }
   
+        .overlap {
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        .rectangle {
+          width: 100%;
+          text-align: center;
+          order: 2;
+        }
+  
+        .text-wrapper-8,
+        .text-wrapper-9,
+        .style-4,
+        .style-1,
+        .flexcontainer-2 {
+          width: 100%;
+          text-align: left;
+        }
+  
+        .style-4 {
+          margin-bottom: 20px;
+        }
+
+        .ul {
+          padding: 0;
+          list-style: none;
+          text-align: left;
+          margin-left: 0px;
+        }
+  
+        .ul li {
+          padding: 2px 0;
+        }
+
+        .flexcontainer {
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .text-wrapper-5,
+        .text-wrapper-6 {
+          width: 100%;
+          margin: 5px 0;
+          box-sizing: border-box;
+          text-align: left;
+        }
+
+        .text-wrapper-7{
+          width: 100%;
+          margin: 5px 0;
+          margin-top: 5px;
+          box-sizing: border-box;
+          text-align: left;
+        }
+
+        .text-wrapper-4{
+          width: 100%;
+          margin-left: 10px;
+          box-sizing: border-box;
+          text-align: left;
+        }
+      }
